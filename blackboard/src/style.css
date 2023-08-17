@@ -1,0 +1,34 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #34405e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.colorList{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.colorList div{
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#canvas{
+  margin-bottom: 20px;
+}
+
+.img-short{
+  width: 200px;
+  margin-top: 20px;
+}
